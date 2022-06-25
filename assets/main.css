@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    background-color: rgb(233, 134, 134);
+    left: 0;
+    right: 0;
+    height: 100px;
+    position: relative;
+}
+
+.child-box {
+    background-color: antiquewhite;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+.box_2 {
+    background-color: aquamarine;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    bottom: 10px;
+}
